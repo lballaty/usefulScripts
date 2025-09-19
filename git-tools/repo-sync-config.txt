@@ -1,0 +1,22 @@
+# Multi-Repository Sync Configuration
+# Format: /absolute/path/to/repository
+# Lines starting with # are comments
+# Empty lines are ignored
+#
+# Example repositories (replace with your actual paths):
+# /Users/username/Projects/my-web-app
+# /Users/username/Projects/mobile-app
+# /Users/username/Projects/data-analysis
+# /Users/username/Documents/personal-projects/blog
+# /Users/username/work/company-dashboard
+
+# To add your repositories, uncomment and modify the paths above, or add new ones:
+# /path/to/your/repository1
+# /path/to/your/repository2
+# /path/to/your/repository3
+
+# Note: Each repository must:
+# - Be a valid git repository (contain .git directory)
+# - Have a configured remote origin
+# - Have proper authentication set up (SSH keys, tokens, etc.)
+# - Be accessible from the machine running these scripts
